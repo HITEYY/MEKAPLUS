@@ -1,0 +1,42 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="mekaplus_endgame"
+version="1.0.0"
+displayName="MEKAPLUS Endgame Materials"
+authors="MEKAPLUS Team"
+description='''
+Adds endgame materials with complex crafting chains using Mekanism and Create.
+Features 6 new items with multi-stage crafting progression.
+'''
+logoFile="logo.png"
+
+[[dependencies.mekaplus_endgame]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.mekaplus_endgame]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.mekaplus_endgame]]
+    modId="mekanism"
+    mandatory=true
+    versionRange="[10.4,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.mekaplus_endgame]]
+    modId="create"
+    mandatory=true
+    versionRange="[0.5.1,)"
+    ordering="AFTER"
+    side="BOTH"

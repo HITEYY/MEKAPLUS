@@ -1,0 +1,27 @@
+# Eclipse
+*.classpath
+*.project
+*.settings
+
+# IntelliJ IDEA
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Gradle
+.gradle/
+build/
+out/
+run/
+
+# Minecraft
+run-data/
+logs/
+crash-reports/
+
+# Other
+*.log
+*.swp
+*.bak
+.DS_Store

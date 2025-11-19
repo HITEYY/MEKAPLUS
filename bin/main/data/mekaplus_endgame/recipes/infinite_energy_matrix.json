@@ -1,0 +1,15 @@
+{
+  "type": "mekanism:metallurgic_infusing",
+  "itemInput": {
+    "ingredient": {
+      "tag": "mekanism:alloys/infinity"
+    }
+  },
+  "chemicalInput": {
+    "amount": 2000,
+    "gas": "mekanism:antimatter"
+  },
+  "output": {
+    "item": "mekaplus_endgame:infinite_energy_matrix"
+  }
+}

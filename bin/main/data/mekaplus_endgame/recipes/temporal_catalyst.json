@@ -1,0 +1,25 @@
+{
+  "type": "mekanism:reaction",
+  "itemInput": {
+    "ingredient": {
+      "item": "mekaplus_endgame:dimensional_fusion_core"
+    }
+  },
+  "fluidInput": {
+    "amount": 1000,
+    "tag": "mekanism:heavy_water"
+  },
+  "gasInput": {
+    "amount": 5000,
+    "gas": "mekanism:antimatter"
+  },
+  "energyRequired": 100000,
+  "duration": 600,
+  "itemOutput": {
+    "item": "mekaplus_endgame:temporal_catalyst"
+  },
+  "gasOutput": {
+    "gas": "mekanism:spent_nuclear_waste",
+    "amount": 100
+  }
+}

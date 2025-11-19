@@ -1,0 +1,32 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "IRIRIR",
+    "RASASR",
+    "ISANSI",
+    "RASASR",
+    "IRIRIR"
+  ],
+  "key": {
+    "I": {
+      "tag": "mekanism:alloys/infinity"
+    },
+    "R": {
+      "item": "create:refined_radiance"
+    },
+    "S": {
+      "item": "create:shadow_steel"
+    },
+    "A": {
+      "item": "mekaplus_endgame:antimatter_stabilization_matrix"
+    },
+    "N": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "result": {
+    "item": "mekaplus_endgame:dimensional_fusion_core",
+    "count": 1
+  },
+  "acceptMirrored": false
+}
