@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"tag": "forge:starlight_fluix"},
+    {"tag": "forge:starlight_atomic_alloy"},
+    {"tag": "forge:starlight_reflection_ingot"}
+  ],
+  "result": {"item": "mekaplus:starlight", "count": 1}
+}

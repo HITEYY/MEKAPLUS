@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["AAA","ACA","AAA"],
+  "key": {
+    "A": {"item": "mekaplus:antigear"},
+    "C": {"item": "mekanism:antiprotonic_nucleosynthesizer"}
+  },
+  "result": {"item": "mekaplus:antimatter_synthesizer", "count": 1}
+}

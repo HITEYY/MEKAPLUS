@@ -1,0 +1,6 @@
+{
+  "replace": false,
+  "values": [
+    {"id": "mekanism:alloy_atomic", "required": false}
+  ]
+}

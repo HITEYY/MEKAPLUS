@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" V ","VMV"," V "],
+  "key": {
+    "M": {"item": "mekanism:meka_tool"},
+    "V": {"item": "mekaplus:vibranium"}
+  },
+  "result": {"item": "mekaplus:damage_module", "count": 1}
+}
