@@ -67,7 +67,7 @@ tasks.named('processResources', ProcessResources).configure {
             mod_license: 'MIT',
             mod_version: version,
             mod_authors: 'HITEYY',
-            mod_description: 'MEKAPLUS endgame progression: Starlight, Soul Boss, Antigear, Antimatter Synthesizer, Vibranium.'
+            mod_description: 'MEKAPLUS progression: Starlight, Soul Boss, Antigear, Antimatter Synthesizer, Vibranium.'
     ]
     inputs.properties replaceProperties
 

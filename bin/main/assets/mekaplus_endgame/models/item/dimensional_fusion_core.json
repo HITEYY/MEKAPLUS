@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "mekaplus_endgame:item/dimensional_fusion_core"
-  }
-}

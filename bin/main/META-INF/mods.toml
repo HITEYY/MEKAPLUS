@@ -1,42 +1,48 @@
 modLoader="javafml"
-loaderVersion="[47,)"
+loaderVersion="[52,)"
 license="MIT"
 
 [[mods]]
-modId="mekaplus_endgame"
-version="1.0.0"
-displayName="MEKAPLUS Endgame Materials"
-authors="MEKAPLUS Team"
+modId="mekaplus"
+version="0.1.0"
+displayName="MEKAPLUS MOD"
+authors="HITEYY"
 description='''
-Adds endgame materials with complex crafting chains using Mekanism and Create.
-Features 6 new items with multi-stage crafting progression.
+MEKAPLUS progression: Starlight, Soul Boss, Antigear, Antimatter Synthesizer, Vibranium.
 '''
 logoFile="logo.png"
 
-[[dependencies.mekaplus_endgame]]
+[[dependencies.mekaplus]]
     modId="forge"
     mandatory=true
-    versionRange="[47,)"
+    versionRange="[52,)"
     ordering="NONE"
     side="BOTH"
 
-[[dependencies.mekaplus_endgame]]
+[[dependencies.mekaplus]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.20.1,1.21)"
+    versionRange="[1.21.1,1.22)"
     ordering="NONE"
     side="BOTH"
 
-[[dependencies.mekaplus_endgame]]
+[[dependencies.mekaplus]]
     modId="mekanism"
-    mandatory=true
-    versionRange="[10.4,)"
+    mandatory=false
+    versionRange="[10.7,)"
     ordering="AFTER"
     side="BOTH"
 
-[[dependencies.mekaplus_endgame]]
+[[dependencies.mekaplus]]
     modId="create"
-    mandatory=true
-    versionRange="[0.5.1,)"
+    mandatory=false
+    versionRange="[6.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.mekaplus]]
+    modId="ae2"
+    mandatory=false
+    versionRange="[19.0,)"
     ordering="AFTER"
     side="BOTH"
