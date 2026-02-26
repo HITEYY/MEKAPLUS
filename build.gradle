@@ -50,10 +50,6 @@ repositories {
 
 dependencies {
     minecraft 'net.minecraftforge:forge:1.21.1-52.0.17'
-
-    compileOnly fg.deobf('appeng:appliedenergistics2-forge:19.0.26')
-    compileOnly fg.deobf('mekanism:Mekanism:1.21.1-10.7.16.80')
-    compileOnly fg.deobf('com.simibubi.create:create-1.21.1:6.0.6')
 }
 
 tasks.named('processResources', ProcessResources).configure {
